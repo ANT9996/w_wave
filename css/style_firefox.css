@@ -1,0 +1,118 @@
+@-moz-document url-prefix() {
+  .hero-container {
+    margin-bottom: 32px;
+  }
+
+  .hero__content {
+    padding-top: 86px;
+  }
+
+  .hero__title {
+    margin-bottom: 7px;
+  }
+
+  .hero__mic {
+    padding-top: 27px;
+  }
+
+  .btn {
+    padding: 21px 52px;
+  }
+
+  .podcasts-container {
+    padding-top: 96px;
+  }
+
+  .podcast__title {
+    margin-bottom: 0;
+  }
+
+  .archive__btn {
+    padding: 0;
+  }
+
+  .podcast__duration {
+    margin-bottom: 5px;
+  }
+
+  .broadcasts__list {
+    margin-top: 13.5px;
+    gap: var(--offset);
+  }
+
+  .broadcast__info {
+    padding: 15px 13px 16px;
+  }
+
+  .broadcast__date {
+    margin-bottom: 13px;
+  }
+
+  .broadcast__title {
+    margin-bottom: 0;
+  }
+
+  .archive__btn {
+    margin-top: 18px;
+  }
+  .guest__btn {
+    padding: 12px;
+  }
+
+  .broadcasts-container {
+    padding-bottom: 94px;
+  }
+
+  .guests__desc {
+    margin-bottom: 49.5px;
+  }
+
+  .guest__title {
+    margin-top: -1px;
+    margin-bottom: 5.5px;
+  }
+
+  .playlist__info {
+    padding: 14px 16px 16px;
+  }
+
+  .playlists__list {
+    gap: 25px var(--offset);
+  }
+
+  .playlists-contaner {
+    padding-bottom: 90px;
+  }
+
+  .adv__btn {
+    padding: 30px 10px;
+  }
+
+  .about-container {
+    padding-top: 95.5px;
+  }
+
+  .about__content {
+    margin-bottom: 29.5px;
+  }
+
+  .about-guest__info {
+    padding-top: 23px;
+  }
+
+  .about-guest__title {
+    margin-bottom: 5px;
+  }
+
+  .about__list {
+    margin-bottom: 30px;
+  }
+
+  .footer-nav__list {
+    gap: 16px 105px;
+  }
+
+  .footer__info {
+    gap: 16px;
+  }
+}

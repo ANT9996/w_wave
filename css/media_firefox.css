@@ -1,0 +1,329 @@
+@media (max-width: 1024px) {
+  @-moz-document url-prefix()  {
+    .nav {
+      padding-bottom: 16px;
+    }
+
+    .hero-container {
+      margin-bottom: 89px;
+    }
+
+    .hero__content {
+      padding-top: 86px;
+    }
+
+    .hero__title {
+      margin-bottom: 8px;
+    }
+
+    .hero__mic {
+      padding-top: 0;
+    }
+
+    .playlists-contaner {
+      padding-top: 94px;
+      padding-bottom: 94px;
+    }
+
+    .playlists__list {
+      gap: var(--offset);
+    }
+
+    .playlist__info {
+      padding: 14px 9px 16px;
+    }
+
+    .playlist__title {
+      margin-bottom: 1px;
+    }
+
+    .broadcasts {
+      padding-bottom: 4px;
+    }
+
+    .broadcast__info {
+      padding: 14px 13px 16px;
+    }
+
+    .about__list {
+      gap: var(--offset);
+    }
+
+    .broadcasts__list {
+      gap: 31px var(--offset);
+    }
+
+    .broadcasts-container {
+      padding-bottom: 91px;
+    }
+
+    .footer__info {
+      gap: 15px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  @-moz-document url-prefix() {
+    .nav {
+      padding-top: 19px;
+      padding-bottom: 20px;
+    }
+
+    .podcasts-container {
+      padding-top: 96px;
+    }
+
+    .broadcasts__title {
+      margin-bottom: 108px;
+    }
+
+    .broadcasts__list {
+      gap: 31px var(--offset);
+    }
+
+    .broadcast__info {
+      padding: 14px 15px 16px;
+    }
+
+    .archive {
+      padding-top: 14px;
+    }
+
+    .archive__info {
+      gap: 7px;
+    }
+
+    .broadcasts-container {
+      padding-bottom: 26px;
+    }
+
+    .playlists-contaner {
+      padding-bottom: 114px;
+    }
+
+    .guests-container {
+      padding-bottom: 96px;
+    }
+
+    .adv {
+      gap: 45px;
+    }
+
+    .footer-nav__list {
+      gap: 27px 153px;
+    }
+
+    .footer {
+      gap: 78px;
+    }
+
+    .footer__info {
+      gap: 15px;
+    }
+
+    .footer-container {
+      padding: 92px 0 11px;
+    }
+
+    .archive__btn {
+      margin-top: 19px;
+    }
+
+    .about-container {
+      padding-top: 95px;
+    }
+
+    .form {
+      gap: 31px;
+    }
+
+    .line_footer {
+      margin-bottom: 7px;
+    }
+
+    .footer__info {
+      gap: 15px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  @-moz-document url-prefix() {
+    .btn {
+      padding: 15px 43.5px;
+    }
+
+    .nav {
+      padding-top: 14px;
+      padding-bottom: 13px;
+    }
+
+    .hero-container {
+      margin-bottom: 40px;
+    }
+
+    .hero__content {
+      padding-top: 40px;
+    }
+
+    .hero__title {
+      margin-bottom: 3px;
+    }
+
+    .podcasts-container {
+      padding-top: 53px;
+    }
+
+    .broadcasts-container {
+      padding-top: 54px;
+      padding-bottom: 50px;
+    }
+
+    .broadcasts__title {
+      margin-bottom: 15px;
+    }
+
+    .broadcast__title {
+      line-height: 1;
+    }
+
+    .broadcast__info {
+      padding: 10px 9px 7px;
+    }
+
+    .broadcast__date {
+      line-height: 1;
+    }
+
+    .archive {
+      margin-top: 18px;
+      padding-top: 30px;
+    }
+
+    .archive__btn {
+      margin-top: 7px;
+    }
+
+    .archive__info {
+      gap: 0;
+    }
+
+    .guests__subtitle {
+      margin-bottom: 0px;
+    }
+
+    .guests__desc {
+      margin-bottom: 28px;
+    }
+
+    .guest__desc {
+      margin-bottom: 30px;
+    }
+
+    .guests__list {
+      gap: 30px;
+    }
+
+    .guests-container {
+      padding-bottom: 54px;
+    }
+
+    .guest__btn {
+      padding: 6.5px 13px;
+    }
+
+    .adv {
+      gap: 31px;
+    }
+
+    .adv__btn {
+      padding: 13px 13.5px;
+    }
+
+    .playlist__info {
+      padding: 8px 8px 8px 10px;
+    }
+
+    .playlists-contaner {
+      padding-bottom: 53px;
+      padding-top: 55px;
+    }
+
+    .line {
+      margin: 11px 0 18px;
+    }
+
+    .adv__price {
+      margin-bottom: 17px;
+    }
+
+    .about-container {
+      padding-top: 53px;
+    }
+
+    .about-guest__info {
+      padding-top: 6px;
+    }
+
+    .about__content {
+      margin-bottom: 31px;
+    }
+
+    .about-guest__title {
+      margin-bottom: 5px;
+    }
+
+    .about__list {
+      gap: 31px var(--offset);
+    }
+
+    .checkbox__text {
+      transform: translateY(-12px);
+    }
+
+    .footer {
+      gap: 54px;
+    }
+
+    .footer-nav__list {
+      gap: 21px 78px;
+    }
+
+    .hero__desc {
+      margin-bottom: 19px;
+    }
+
+    .form {
+      gap: 30px;
+    }
+
+    .footer-container {
+      padding-top: 52px;
+    }
+
+    .footer__info {
+      gap: 15px;
+    }
+
+    .podcasts__list {
+      --offset: 29px;
+    }
+
+    .broadcast__title {
+      margin-bottom: 5px;
+    }
+
+    .broadcast__date {
+      margin-bottom: 15px;
+    }
+
+    .playlist__title {
+      margin-bottom: 3px;
+    }
+
+    .line_footer {
+      margin-bottom: 8px;
+    }
+  }
+}
